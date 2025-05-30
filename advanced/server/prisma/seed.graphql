@@ -1,5 +1,6 @@
 
 mutation {
+
   user1: createUser(data: {
     email: "alice@prisma.io"
     name: "Alice"
