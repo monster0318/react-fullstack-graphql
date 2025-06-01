@@ -11,6 +11,7 @@ function getUserId(context) {
   throw new AuthError()
 }
 
+
 class AuthError extends Error {
   constructor() {
     super('Not authorized')
