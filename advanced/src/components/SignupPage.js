@@ -4,6 +4,7 @@ import { graphql } from 'react-apollo'
 import  { gql } from 'apollo-boost'
 import { AUTH_TOKEN } from '../constant'
 
+
 class SignupPage extends Component {
   state = {
     email: '',
